@@ -22,7 +22,7 @@ struct myHash
     }
 
     void remove(int key)
-    {
+    { 
         int i = key % BUCKET;
         table[i].remove(key);
     }
